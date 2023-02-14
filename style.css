@@ -1,0 +1,61 @@
+* {
+    margin: 0; /* внешний отступ */
+    padding: 0; /* внутренний отступ */
+} 
+
+header {
+    height: 70px;
+    background-color: rgb(16, 16, 16);
+    padding: 20px;
+}
+
+body {
+    background-color: rgb(134, 134, 134);
+} 
+
+h1 {
+    color: rgb(238, 133, 5);
+    text-align: center; /* отцентровка текста */
+    font-size: 40px; /* размер шрифта */
+}
+
+div {
+    width: 70%;
+    padding: 20px;
+    margin: 30px auto 30px; /* отцентровка diva */
+    border-radius: 1%;
+}
+
+.post-1 {
+    background-color: black;
+}
+
+.post-2 {
+    background-color: rgb(54, 53, 53);
+}
+
+
+h5 {
+    text-align: center;
+    font-size: 28px;
+    color: rgb(154, 22, 97);
+    margin: 20px;
+}
+
+img {
+    width: 60%;
+    display: block;
+    margin: 30px auto;
+    margin-bottom: 20px;
+    border-radius: 1%;
+}
+
+p {
+    display: block;
+    color: rgb(247, 166, 67);
+    text-align: center;
+    text-align: justify;
+    padding: 50px;
+    font-size: 18px;
+    line-height: 1.5; /* отступы между строк */
+}
